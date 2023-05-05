@@ -1,0 +1,115 @@
+.tooltips{
+    position: relative;
+    display: inline-block;
+    border-bottom:  1px dotted #000000 ;
+}
+.tooltips .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding:5px 0 ;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+}
+.tooltips:hover .tooltiptext{
+    visibility: visible;
+
+
+
+
+}
+.notificacion{
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 26px ;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+.notificacion:hover{
+    background: #C70039;
+}
+.badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #C70039;
+    color: #fff;
+}
+.container{
+
+
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+.darker{
+    border-color :#ccc;
+    background-color: #ddd;
+
+
+}
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container img {
+    float: right;
+    max-width:60px ;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+
+
+}
+.container img.rigth{
+
+    float: left;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.time-rigth{
+    float: right;
+    color: #aaa;
+
+}
+
+.time-left{
+    float: left;
+    color: #999;
+
+}
+.accordeon{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active,.accordeon:hover{
+    background-color: #ccc;
+
+}
+.panel{
+    padding: 0 18px;
+    background-color: #fff;
+    display: none;
+    overflow: hidden;
+}
+

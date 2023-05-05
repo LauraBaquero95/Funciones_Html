@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <title>practica componentes </title>
+</head>
+<body>
+
+    <h1> COMPONENTES HTML</h1>
+    <h2> 1--> Botones </h2>
+    <!--botones-->
+    <button type="button" onclick="alert('felicidades')"> Click aqui</button>
+    <br>
+    <br>
+    <h2>2--> Campos de texto </h2>
+    <!--Text area para agregar campos de texto  -->
+    <textarea name="prueba" id="prueba" cols="30" rows="10"> Escribe algo aqui</textarea>
+    <br>
+    <h2>3--> Checkbox</h2>
+    <!--los checkbox permiten seleccionar multiples opciones -->
+    <form >
+        <input type="checkbox" id="" name="" value="">
+        <label for="">yo soy mas alta que 1.80</label> <br>
+        <input type="checkbox" id="" name="" value="">
+        <label for="">yo mido menos de 1.80 </label>
+        
+
+
+    </form>
+    <br>
+    <h2>4--> Radio Button </h2>
+    <form>
+        <input type="radio" id="" name="" value="">
+        <label for=""> yo tengo entre 20 a 25 años </label><br>
+        <input type="radio" id="" name="" value="">
+        <label for=""> yo tengo entre 16 a 19 años </label><br>
+
+
+    </form>
+    <h2>5--> Listas Drop drown</h2>
+    <!-- codigo para listas drop drown-->
+    <label>
+        Elige tu cuidad
+    </label>
+    <select name="" id="">
+        <option value="">Seleccione</option>
+        <option value="">Bogota</option>
+        <option value="">Medellin</option>
+        <option value="">Cartagena </option>
+        <option value="">Cali</option>
+    </select>
+    <br>
+    <h2>6--> Switches</h2>
+    <input type="checkbox">
+    <label for="">Aqui ponemos una condicion</label>
+    <br>
+    <h2>7--> Campos de fechas </h2>
+    <form action="">
+        <label for="Cumpleaños"> ¿Cuando es tu cumpleaños?</label>
+        <input type="date" id="" name="">
+
+
+
+    </form>
+    <br>
+    <h1>COMPONENTES DE NAVEGACION</h1>
+    <H2>1... BREADCRUMBS</H2>
+    <ul>
+        <li><a href=""> Primera</a></li>
+        <li><a href=""> Segunda</a></li>
+        <li><a href="">Tercera </a> </li>
+    </ul>
+    <h2>2... Slider</h2>
+    <div>
+        <input type="range" min="1" max="100" class="slider"   >
+        
+    </div>
+    <br>
+    <h2>3... Formularios de busqueda</h2>
+
+    <input type="text" name="search" placeholder="Search...">
+    <br>
+    <h2>4... Paginanción </h2>
+    <a href="https://www.google.com"> Buscanos en google</a>
+    <br>
+    <h1>Componentes de información </h1>
+    <br>
+    <h2>1-Tooltips</h2>
+    <div class="tooltips"> Hola
+        <span class="tooltiptext"> si funciona </span>
+
+
+    </div>
+    <br>
+    <h2>2-Iconos</h2>
+    <!--Iconos de bootstrap -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-alipay" viewBox="0 0 16 16">
+        <path d="M2.541 0H13.5a2.551 2.551 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536-.303-.113-.624-.232-.957-.353a12.98 12.98 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.551 2.551 0 0 1 13.5 16H2.541A2.552 2.552 0 0 1 0 13.437V2.563A2.552 2.552 0 0 1 2.541 0Z"/>
+        <path d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-boxes" viewBox="0 0 16 16">
+        <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z"/>
+    </svg>
+    <br>
+    <h2>3- Barras de proceso</h2>
+    <label for="file">Proceso de descarga</label>
+    <progress id="file" value="40" max="100"></progress>
+    <br>
+    <h2>4- Notificaciones</h2>
+    <a href="" class="notificacion">
+        <span>Inbox</span>
+        <span class="badge">3</span>
+
+
+
+    </a>
+    <br>
+    <h2>5- Cajas de Mensajes</h2>
+    <br><br>
+    <div class="container">
+        <img src="img/picachu.png" alt="Avatar" class="rigth">
+        <p>Hola como estas?</p>
+        <span class="time-rigth"> 11:00 am </span>
+    </div>
+
+    <div class="container darker">
+        <img src="img/picachu_2.png" alt="Avatar">
+        <p>Bien y tu ?</p>
+        <span class="time-left"> 11:02 am </span>
+    </div>
+
+    <div class="container">
+        <img src="img/picachu.png" alt="Avatar" class="rigth">
+        <p>Bien gracias quieres salir conmigo?</p>
+        <span class="time-rigth"> 11:05 am </span>
+    </div>
+
+    <div class="container darker">
+        <img src="img/picachu_2.png" alt="Avatar">
+        <p>Si por su puesto</p>
+        <span class="time-left"> 11:09 am </span>
+    </div>
+    <br><br> 
+    <h2>Modals</h2>
+    <div class="w3-container">
+        <h2>W3.CSS Modal</h2>
+        <p>Use w3-container classes to create different sections in the modal (e.g. header & footer).</p>
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+        
+            <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container w3-teal"> 
+                <span onclick="document.getElementById('id01').style.display='none'" 
+                class="w3-button w3-display-topright">&times;</span>
+                <h2>Modal Header</h2>
+                </header>
+                <div class="w3-container">
+                <p>Some text..</p>
+                <p>Some text..</p>
+            </div>
+            </div>
+        </div>
+    <br>
+    <h1>CONTENEDORES</h1>
+    <h2>Acordeones</h2>
+    <!--se utilizara html, css , Javascript-->
+    <!--1.... html -->
+
+    <button class="accordeon">Section 1 </button>
+    <div class="panel">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam libero aut quia architecto nostrum, ut ex voluptatum voluptate sit beatae? Velit magni consequatur, nulla blanditiis in illum ad est beatae, sed atque earum porro! Voluptatibus deleniti delectus nostrum eveniet cum praesentium, soluta quod ratione. Odit quod id, repudiandae optio vitae quas eos qui modi quibusdam corrupti excepturi. Numquam vel vitae inventore accusantium exercitationem, reiciendis voluptatum officia repellendus earum distinctio hic ducimus odit eos ipsam nostrum aut et nobis laudantium? Qui, reprehenderit quo voluptates fugiat, dolores, dolor at voluptate voluptatem corrupti nam blanditiis! Ab maxime deserunt quo fuga nulla tempora.        </p>
+    </div>
+    <button class="accordeon">Section 2 </button>
+    <div class="panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam architecto placeat vero neque ab maxime, accusamus earum cupiditate consequatur! Nostrum similique earum possimus amet provident aliquam non ea obcaecati sapiente fuga optio quia dolor, quae omnis voluptas molestias veritatis modi! Labore sed mollitia ea quas, voluptatum aperiam placeat. Ex nihil id esse molestiae omnis facilis quibusdam velit consectetur tenetur, eos animi, totam quis dolorem ipsum veniam itaque explicabo dicta, distinctio mollitia officiis illum labore sequi magnam odit! Est, tempora tenetur, odio quasi autem non dolor aliquid sunt cupiditate blanditiis amet optio modi dolores quo, sint consequatur eum vero necessitatibus voluptate!
+        </p>
+    </div>
+    <button class="accordeon">Section 3 </button>
+    <div class="panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam architecto placeat vero neque ab maxime, accusamus earum cupiditate consequatur! Nostrum similique earum possimus amet provident aliquam non ea obcaecati sapiente fuga optio quia dolor, quae omnis voluptas molestias veritatis modi! Labore sed mollitia ea quas, voluptatum aperiam placeat. Ex nihil id esse molestiae omnis facilis quibusdam velit consectetur tenetur, eos animi, totam quis dolorem ipsum veniam itaque explicabo dicta, distinctio mollitia officiis illum labore sequi magnam odit! Est, tempora tenetur, odio quasi autem non dolor aliquid sunt cupiditate blanditiis amet optio modi dolores quo, sint consequatur eum vero necessitatibus voluptate!
+        </p>
+    </div>
+    <!--Javascript-->
+    <script>
+        var acc = document.getElementsByClassName("accordeon");
+        var i;
+
+        for (i= 0; i<acc.length; i++) {
+            acc[i].addEventListener("click", function(){
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block"){
+                panel.style.display = "none";
+            }else {panel.style.display = "block"}
+
+
+            });
+            
+        }
+    </script>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
